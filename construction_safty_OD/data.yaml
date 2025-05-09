@@ -1,0 +1,14 @@
+path : ../drive/MyDrive/Datasets/constructionsafty
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Boots', 'Hardhat', 'Hook', 'Machinary', 'No-Hardhat', 'No-mask', 'No-safetyvest', 'Person', 'Safetyvest']
+
+roboflow:
+  workspace: customdetectdetection
+  project: construction-site-safety-q3ka6-vbh7d
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/customdetectdetection/construction-site-safety-q3ka6-vbh7d/dataset/1
